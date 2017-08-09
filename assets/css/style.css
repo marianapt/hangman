@@ -5,3 +5,34 @@ body {
     width: 700px;
 height: 700px;
 }
+
+#container{
+  font-family: Passion One;
+  font-size: 45px;
+  width: 50%;
+  /*border-radius: 15px;*/
+  padding: 10px;
+  background-color: transparent;
+
+margin-left: 470px;
+
+
+}
+#header{color: orange;}
+
+#letters{
+  display:flex;
+  justify-content: space-between;
+
+
+}
+#letters a{color: green;
+  background-color:  grey;
+
+  border-radius: 2px;
+  padding: 2px;
+  cursor: pointer;
+}
+#letters a:hover{color:brown;}
+#letters a .d{color: yellow;
+text-decoration: underline;}

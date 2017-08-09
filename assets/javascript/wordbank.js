@@ -1,0 +1,47 @@
+Words ={};
+Words.List = [];
+
+Word.List[0]="boot";
+Word.List[1]="gun";
+Word.List[2]="wagon";
+Word.List[3]="whiskey";
+Word.List[4]="bullet";
+Word.List[5]="spurs";
+Word.List[6]="rope";
+Word.List[7]="sherriff";
+Word.List[8]="cowboy";
+Word.List[9]="western";
+Word.List[10]="horse";
+Word.List[11]="town";
+Word.List[12]="outlaw";
+Word.List[13]="bandit";
+Word.List[14]="water";
+Word.List[15]="dust";
+Word.List[16]="hot";
+Word.List[17]="bazoo";
+Word.List[18]="calaboose";
+Word.List[19]="consumption";
+Word.List[20]="dreadful";
+Word.List[21]="goner";
+Word.List[22]="game";
+Word.List[23]="heap";
+Word.List[24]="howdy";
+Word.List[25]="partner";
+Word.List[26]="tick";
+Word.List[27]="nary";
+Word.List[28]="ifin";
+Word.List[29]="yaller";
+Word.List[30]="yonder";
+Word.List[31]="yup";
+Word.List[32]="whup";
+Word.List[33]="sowbelly";
+Word.List[34]="cahoots";
+Word.List[35]="saloon";
+Word.List[36]="yokel";
+Word.List[37]="crook";
+Word.List[38]="hoedown";
+Word.List[39]="pony";
+Word.List[40]="giddy";
+
+
+Words.Length = Words.List.length();
