@@ -3,7 +3,7 @@ Main.WordArray = [];
 Main.WordUArray = [];
 
 Main.Lives = 4;
-Main.NumInWordBank = Words.Length;
+Main.NumInWordBank = Words.length;
 
 Main.Word = "test";
 Main.WordU = "";
@@ -18,7 +18,10 @@ Main.PullWord = function() {
 
 Main.SetUnderline = function() {
     Main.PullWord();
-    for (var i = 0; i < Main.Word.length; i++) {
+    Main.Word = "test";
+
+    console.log(Main.Word);
+    for (var i = 0; i < Main.Word.length ; i++) {
         Main.WordArray[i] = Main.Word.charAt(i);
         Main.WordUArray[i] = "_";
     }
@@ -33,12 +36,13 @@ Main.UpdateLetter = function(letter) {
         Main.WordArray[i] = Main.Word.charAt(i);
         if (Main.Word.CharAt(i) == letter) {
             Main.WordUArray[i] == letter;
-            Main.Chnages += 1;
+            Main.Changes += 1;
 
         }
     }
+
     if (Main.Changes < 1) {
-        Main.lives - +1;
+        Main.lives -= 1;
         document.getElementById("lives").innerHTML = Main.lives;
 
     }
@@ -46,6 +50,7 @@ Main.UpdateLetter = function(letter) {
     document.getElementById("WORD").innerHTML = Main.WordU;
     Main.Word1 = Main.WordArray.join("");
     Main.Word2 = Main.WordUArray.join("");
+
     if (Main.Word1 == Main.Word2) {
         alert("You Won! Loading A New Word");
         window.location.reload();
@@ -53,7 +58,7 @@ Main.UpdateLetter = function(letter) {
     }
     if (Main.Lives < 1) {
         document.getElementById("WORD").innerHTML == Main.Word1;
-        alert("You Have Run Out Of Lives, Please try again,")
+        alert("You Have Run Out Of Lives, Please try again.")
         window.location.reload();
     }
 }

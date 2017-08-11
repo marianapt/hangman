@@ -26,13 +26,18 @@ margin-left: 470px;
 
 
 }
-#letters a{color: green;
-  background-color:  grey;
-
-  border-radius: 2px;
-  padding: 2px;
+#letters a{color: #cc9900;
+  background-color: transparent;
+  text-align: center;
+  text-shadow: 10px;
+font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
   cursor: pointer;
+  font-size: 35px;
 }
+
 #letters a:hover{color:brown;}
+
 #letters a .d{color: yellow;
 text-decoration: underline;}
