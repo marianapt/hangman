@@ -4,14 +4,15 @@ body {
 
     width: 700px;
 height: 700px;
-color: !important orange;
+color: orange;
 font-size: !important 40px; 
 }
+
 
 .container{
   font-family: Passion One;
   font-size: 25px;
-  width: 50%;
+  width: 20%;
   /*border-radius: 15px;*/
   padding: 10px;
   background-color: transparent;
@@ -23,5 +24,14 @@ margin-left: 200px;
 
 .jumbotron{background-color: transparent;}
 
-.panel-heading{background-color: transparent;}
-.panel-body{background-color: transparent;}
+
+.panel {
+  background-image: none;
+  background-color:transparent;
+  color:black;
+
+}
+.panel-body {  background-image: none;
+  background-color:transparent;
+  color: orange;}
+
