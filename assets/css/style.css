@@ -4,40 +4,24 @@ body {
 
     width: 700px;
 height: 700px;
+color: !important orange;
+font-size: !important 40px; 
 }
 
-#container{
+.container{
   font-family: Passion One;
-  font-size: 45px;
+  font-size: 25px;
   width: 50%;
   /*border-radius: 15px;*/
   padding: 10px;
   background-color: transparent;
 
-margin-left: 470px;
+margin-left: 200px;
 
 
 }
-#header{color: orange;}
 
-#letters{
-  display:flex;
-  justify-content: space-between;
+.jumbotron{background-color: transparent;}
 
-
-}
-#letters a{color: #cc9900;
-  background-color: transparent;
-  text-align: center;
-  text-shadow: 10px;
-font-weight: bold;
-  border-radius: 5px;
-  padding: 5px;
-  cursor: pointer;
-  font-size: 35px;
-}
-
-#letters a:hover{color:brown;}
-
-#letters a .d{color: yellow;
-text-decoration: underline;}
+.panel-heading{background-color: transparent;}
+.panel-body{background-color: transparent;}
