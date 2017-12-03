@@ -5,7 +5,7 @@
 // ==================================================================================================
 
 // Array of Word Options (all lowercase)
-var wordsList = ["lasso", "gun", "horse", "tumbleweed", "hay", "boots", "wagon"]
+var wordsList = ["lasso", "gun", "horse", "tumbleweed", "hay", "boots", "wagon"];
 
 // Solution will be held here.
 var chosenWord = "";
