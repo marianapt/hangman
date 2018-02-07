@@ -4,7 +4,7 @@
 // ==================================================================================================
 
 // Array of Word Options (all lowercase)
-var wordsOptions = ["lasso", "gun", "horse", "tumbleweed", "hay", "boots", "wagon"];
+var wordOptions = ["lasso", "gun", "horse", "tumbleweed", "hay", "boots", "wagon"];
 
 var selectedWord = "";
 // This will break the solution into individual letters to be stored in array.
