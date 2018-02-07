@@ -35,7 +35,7 @@ function startGame() {
     blanksAndSuccesses.push("_");
   }
 
-  document.getElementById("wordToGuess").innerHTML = blanksAndSuccesses.join("_");
+  document.getElementById("wordToGuess").innerHTML = blanksAndSuccesses.join(" ");
   document.getElementById("numGuesses").innerHTML = guessesLeft;
   document.getElementById("winCounter").innerHTML = winCount;
   document.getElementById("lossCounter").innerHTML = lossCount;
