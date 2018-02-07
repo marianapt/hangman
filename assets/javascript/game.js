@@ -91,7 +91,7 @@ else  {
 }
 
 
-// startGame();
+ startGame();
 
 
 //register key clicks
