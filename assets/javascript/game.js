@@ -23,8 +23,8 @@ var guessesLeft = 9;
 function startGame() {
   selectedWord = wordOptions[Math.floor(Math.random() * wordOptions.length)]
 
-  lettersInWord = selectedWord.split("");
-  numBlanks = lettersInWord.length;
+  lettersinWord = selectedWord.split("");
+  numBlanks = lettersinWord.length;
 
 
   guessesLeft = 9;
