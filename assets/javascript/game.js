@@ -63,7 +63,7 @@ else{
 }
 function roundComplete(){
   console.log("Win Count: " + winCount + "| Loss Count :" + lossCount + " | Guesses Left:" +  guessesLeft);
-  
+
   document.getElementById("guessesLeft").innerHTML = guessesLeft;
   document.getElementById("wordToGuess").innerHTML = blanksAndSuccesses.toString();
   document.getElementById("wrongGuesses").innerHTML = wrongLetters.join(" ");
@@ -98,7 +98,7 @@ else  {
 
 
 document.onkeyup = function (event) {
-  var letterGuessed = String.fromCharCode(event.keyCode).toLocaleLowerCase();
+  var letterGuessed = String.fromCharCode(event.keyCode).toLowerCase();
   checkLetters(letterGuessed);
 roundComplete();
 }
