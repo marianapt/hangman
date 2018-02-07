@@ -8,7 +8,7 @@ var wordOptions = ["lasso", "gun", "horse", "tumbleweed", "hay", "boots", "wagon
 
 var selectedWord = "";
 // This will break the solution into individual letters to be stored in array.
-var lettersInWord = [];
+var lettersinWord = [];
 var numBlanks = 0;
 var blanksAndSuccesses = [];
 var wrongLetters = [];
